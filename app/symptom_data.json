@@ -1,0 +1,122 @@
+{
+  "fever": {
+    "specialist": "General Physician",
+    "remedies": ["Drink plenty of fluids", "Rest in a cool room", "Take paracetamol if needed"],
+    "exercises": ["Deep breathing exercises 3x/day"],
+    "severity": "mild"
+  },
+  "chest pain": {
+    "specialist": "Cardiologist",
+    "remedies": ["Sit upright and stay calm", "Avoid physical exertion"],
+    "exercises": ["Gentle shoulder rolls if muscular"],
+    "severity": "severe"
+  },
+  "headache": {
+    "specialist": "Neurologist",
+    "remedies": ["Apply cold compress to forehead", "Massage temples gently", "Hydrate well"],
+    "exercises": ["Neck stretches: Slowly tilt head side-to-side"],
+    "severity": "mild"
+  },
+  "cough": {
+    "specialist": "Pulmonologist",
+    "remedies": ["Drink warm liquids", "Use honey-lemon mixture", "Humidify air"],
+    "exercises": ["Deep breathing exercises"],
+    "severity": "mild"
+  },
+  "back pain": {
+    "specialist": "Orthopedic",
+    "remedies": ["Apply ice/heat pack", "Maintain good posture"],
+    "exercises": ["Cat-cow stretches", "Pelvic tilts"],
+    "severity": "mild"
+  },
+  "dizziness": {
+    "specialist": "Neurologist",
+    "remedies": ["Sit/lie down immediately", "Hydrate", "Avoid sudden movements"],
+    "exercises": ["Epley maneuver (for vertigo)"],
+    "severity": "mild"
+  },
+  "nausea": {
+    "specialist": "Gastroenterologist",
+    "remedies": ["Sip ginger tea", "Eat small bland meals", "Acupressure (P6 point)"],
+    "exercises": [],
+    "severity": "mild"
+  },
+  "fatigue": {
+    "specialist": "General Physician",
+    "remedies": ["Ensure 7-8hrs sleep", "Stay hydrated", "Check iron levels"],
+    "exercises": ["Light walking 15min/day"],
+    "severity": "mild"
+  },
+  "shortness of breath": {
+    "specialist": "Pulmonologist",
+    "remedies": ["Pursed-lip breathing", "Sit upright"],
+    "exercises": ["Diaphragmatic breathing"],
+    "severity": "severe"
+  },
+  "joint pain": {
+    "specialist": "Rheumatologist",
+    "remedies": ["Apply ice pack", "Try turmeric supplements"],
+    "exercises": ["Gentle range-of-motion exercises"],
+    "severity": "mild"
+  },
+  "sore throat": {
+    "specialist": "General Physician",
+    "remedies": ["Gargle with warm salt water", "Drink herbal teas", "Use throat lozenges"],
+    "exercises": [],
+    "severity": "mild"
+  },
+  "abdominal pain": {
+    "specialist": "Gastroenterologist",
+    "remedies": ["Apply heat pad", "Drink peppermint tea", "Eat small meals"],
+    "exercises": ["Gentle abdominal massage"],
+    "severity": "severe"
+  },
+  "diarrhea": {
+    "specialist": "Gastroenterologist",
+    "remedies": ["Stay hydrated with ORS", "Eat BRAT diet (bananas, rice, applesauce, toast)", "Avoid dairy"],
+    "exercises": [],
+    "severity": "mild"
+  },
+  "constipation": {
+    "specialist": "Gastroenterologist",
+    "remedies": ["Increase fiber intake", "Drink more water", "Try prunes or prune juice"],
+    "exercises": ["Abdominal massage clockwise"],
+    "severity": "mild"
+  },
+  "insomnia": {
+    "specialist": "General Physician",
+    "remedies": ["Maintain sleep schedule", "Avoid screens before bed", "Try relaxation techniques"],
+    "exercises": ["4-7-8 breathing exercise"],
+    "severity": "mild"
+  },
+  "anxiety": {
+    "specialist": "Psychiatrist",
+    "remedies": ["Practice deep breathing", "Limit caffeine", "Try grounding techniques"],
+    "exercises": ["Box breathing (4-4-4-4)"],
+    "severity": "mild"
+  },
+  "muscle cramps": {
+    "specialist": "General Physician",
+    "remedies": ["Gently stretch muscle", "Apply heat", "Stay hydrated"],
+    "exercises": ["Gentle stretching"],
+    "severity": "mild"
+  },
+  "heartburn": {
+    "specialist": "Gastroenterologist",
+    "remedies": ["Eat smaller meals", "Avoid lying down after eating", "Try antacids"],
+    "exercises": [],
+    "severity": "mild"
+  },
+  "ear pain": {
+    "specialist": "ENT Specialist",
+    "remedies": ["Apply warm compress", "Use over-the-counter pain relievers", "Try nasal decongestants"],
+    "exercises": [],
+    "severity": "severe"
+  },
+  "rash": {
+    "specialist": "Dermatologist",
+    "remedies": ["Apply cold compress", "Use fragrance-free moisturizer", "Avoid scratching"],
+    "exercises": [],
+    "severity": "mild"
+  }
+}

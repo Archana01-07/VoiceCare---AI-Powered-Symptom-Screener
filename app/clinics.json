@@ -1,0 +1,79 @@
+[
+    {
+        "name": "City General Clinic",
+        "location": "Mylapore, Chennai",
+        "specialist": "General Physician",
+        "phone": "+91-9000012345",
+        "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+        "name": "HeartCare Specialists",
+        "location": "Anna Nagar, Chennai",
+        "specialist": "Cardiologist",
+        "phone": "+91-9845012345",
+        "hours": "24/7 Emergency"
+    },
+    {
+        "name": "NeuroVision Center",
+        "location": "T Nagar, Chennai",
+        "specialist": "Neurologist",
+        "phone": "+91-9845098765",
+        "hours": "9:00 AM - 9:00 PM"
+    },
+    {
+        "name": "Pulmonary Health Institute",
+        "location": "Adyar, Chennai",
+        "specialist": "Pulmonologist",
+        "phone": "+91-9945078945",
+        "hours": "8:30 AM - 7:30 PM"
+    },
+    {
+        "name": "Bone & Joint Center",
+        "location": "Velachery, Chennai",
+        "specialist": "Orthopedic",
+        "phone": "+91-9345601234",
+        "hours": "9:00 AM - 6:00 PM"
+    },
+    {
+        "name": "Gastro Health Solutions",
+        "location": "T Nagar, Chennai",
+        "specialist": "Gastroenterologist",
+        "phone": "+91-9345678123",
+        "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+        "name": "Arthritis & Rheumatology Clinic",
+        "location": "Nungambakkam, Chennai",
+        "specialist": "Rheumatologist",
+        "phone": "+91-9845612345",
+        "hours": "10:00 AM - 5:00 PM"
+    },
+    {
+        "name": "MindCare Psychiatry",
+        "location": "Alwarpet, Chennai",
+        "specialist": "Psychiatrist",
+        "phone": "+91-9845678901",
+        "hours": "10:00 AM - 7:00 PM"
+    },
+    {
+        "name": "ENT Specialists Hospital",
+        "location": "Kilpauk, Chennai",
+        "specialist": "ENT Specialist",
+        "phone": "+91-9444456789",
+        "hours": "8:00 AM - 8:00 PM"
+    },
+    {
+        "name": "SkinVision Dermatology",
+        "location": "Adyar, Chennai",
+        "specialist": "Dermatologist",
+        "phone": "+91-9844412345",
+        "hours": "9:30 AM - 6:30 PM"
+    },
+    {
+        "name": "City Emergency Clinic",
+        "location": "Egmore, Chennai",
+        "specialist": "General Physician",
+        "phone": "+91-9000099999",
+        "hours": "24/7 Emergency"
+    }
+]

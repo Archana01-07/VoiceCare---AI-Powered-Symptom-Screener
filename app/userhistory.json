@@ -1,0 +1,1566 @@
+{
+    "Tarunika": [
+        {
+            "input": "I am having fever and rashes",
+            "output": {
+                "advice": "We recommend consulting a General Physician.",
+                "clinic": {
+                    "name": "City Clinic",
+                    "location": "Mylapore, Chennai",
+                    "specialist": "General Physician",
+                    "phone": "+91-9000012345"
+                }
+            },
+            "timestamp": "2025-06-29T13:40:41.589040"
+        },
+        {
+            "input": "I am having fever and rashes",
+            "output": {
+                "advice": "We recommend consulting a General Physician.",
+                "clinic": {
+                    "name": "City Clinic",
+                    "location": "Mylapore, Chennai",
+                    "specialist": "General Physician",
+                    "phone": "+91-9000012345"
+                }
+            },
+            "timestamp": "2025-06-29T13:40:42.279649"
+        },
+        {
+            "input": "i have fever, chest pain and nausea",
+            "output": {
+                "advice": "We recommend consulting a General Physician.",
+                "clinic": {
+                    "name": "City Clinic",
+                    "location": "Mylapore, Chennai",
+                    "specialist": "General Physician",
+                    "phone": "+91-9000012345"
+                }
+            },
+            "timestamp": "2025-06-29T13:41:30.307679"
+        },
+        {
+            "input": "i have chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-29T13:41:45.112122"
+        }
+    ],
+    "Sr Archana": [
+        {
+            "input": "I am having fever and rashes.",
+            "output": {
+                "advice": "We recommend consulting a General Physician.",
+                "clinic": {
+                    "name": "City Clinic",
+                    "location": "Mylapore, Chennai",
+                    "specialist": "General Physician",
+                    "phone": "+91-9000012345"
+                }
+            },
+            "timestamp": "2025-06-29T13:44:41.421538"
+        },
+        {
+            "input": "Severe headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist.",
+                "clinic": {
+                    "name": "Neuro Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765"
+                }
+            },
+            "timestamp": "2025-06-29T13:46:18.628509"
+        },
+        {
+            "input": "i have chest pain\n",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-29T13:52:26.061578"
+        },
+        {
+            "input": "i have chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-29T13:52:42.405539"
+        },
+        {
+            "input": "Fever and rashes.",
+            "output": {
+                "advice": "We recommend consulting a General Physician.",
+                "clinic": {
+                    "name": "City Clinic",
+                    "location": "Mylapore, Chennai",
+                    "specialist": "General Physician",
+                    "phone": "+91-9000012345"
+                }
+            },
+            "timestamp": "2025-06-29T14:04:22.832329"
+        },
+        {
+            "input": "I am having a severe headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist.",
+                "clinic": {
+                    "name": "Neuro Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765"
+                }
+            },
+            "timestamp": "2025-06-29T14:04:42.325634"
+        },
+        {
+            "input": "Chest pain and preethi issues.",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-29T14:05:13.861112"
+        },
+        {
+            "input": "I am having a cough.",
+            "output": {
+                "advice": "We recommend consulting a Pulmonologist.",
+                "clinic": {
+                    "name": "Lung Health",
+                    "location": "Adyar, Chennai",
+                    "specialist": "Pulmonologist",
+                    "phone": "+91-9945078945"
+                }
+            },
+            "timestamp": "2025-06-30T10:42:02.496204"
+        },
+        {
+            "input": "I am having severe headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "clinic",
+                "remedies": [
+                    "Take a wet cloth (cold water) and place it in the forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "moderate",
+                "clinic": {
+                    "name": "Neuro Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765"
+                }
+            },
+            "timestamp": "2025-06-30T12:53:34.413860"
+        },
+        {
+            "input": "I am having severe headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "clinic",
+                "remedies": [
+                    "Take a wet cloth (cold water) and place it in the forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "moderate",
+                "clinic": {
+                    "name": "Neuro Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765"
+                }
+            },
+            "timestamp": "2025-06-30T12:53:39.771242"
+        },
+        {
+            "input": "I am having a headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "clinic",
+                "remedies": [
+                    "Take a wet cloth (cold water) and place it in the forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "moderate",
+                "clinic": {
+                    "name": "Neuro Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765"
+                }
+            },
+            "timestamp": "2025-06-30T12:53:53.223491"
+        },
+        {
+            "input": "I'm having a mild headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "clinic",
+                "remedies": [
+                    "Take a wet cloth (cold water) and place it in the forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "moderate",
+                "clinic": {
+                    "name": "Neuro Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765"
+                }
+            },
+            "timestamp": "2025-06-30T12:54:03.455814"
+        },
+        {
+            "input": "I'm having a chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular pain"
+                ],
+                "severity": "moderate",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T12:54:17.451662"
+        },
+        {
+            "input": "I'm having a low chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular pain"
+                ],
+                "severity": "moderate",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T12:56:55.075803"
+        },
+        {
+            "input": "I'm having a moderate chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular pain"
+                ],
+                "severity": "moderate",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T12:57:25.622627"
+        },
+        {
+            "input": "I'm having a moderate chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular pain"
+                ],
+                "severity": "moderate",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T12:57:26.617680"
+        },
+        {
+            "input": "I'm having a moderate chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular pain"
+                ],
+                "severity": "moderate",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T12:57:26.754231"
+        },
+        {
+            "input": "I'm having a moderate chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular pain"
+                ],
+                "severity": "moderate",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T12:57:26.930573"
+        },
+        {
+            "input": "I'm having a moderate headache",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "clinic",
+                "remedies": [
+                    "Take a wet cloth (cold water) and place it in the forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "moderate",
+                "clinic": {
+                    "name": "Neuro Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765"
+                }
+            },
+            "timestamp": "2025-06-30T12:57:39.202267"
+        },
+        {
+            "input": "i am having low headache",
+            "output": {
+                "advice": "We recommend consulting a Neurologist.",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "low"
+            },
+            "timestamp": "2025-06-30T13:03:50.584121"
+        },
+        {
+            "input": "I am having high chest pain.",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular"
+                ],
+                "severity": "high",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T13:04:12.035541"
+        },
+        {
+            "input": "I am having low chest pain.",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular"
+                ],
+                "severity": "high",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T13:04:20.857630"
+        },
+        {
+            "input": "I am having moderate ear pain.",
+            "output": {
+                "advice": "We recommend consulting a ENT Specialist.",
+                "type": "clinic",
+                "remedies": [
+                    "Apply warm compress",
+                    "Use over-the-counter pain relievers",
+                    "Try nasal decongestants"
+                ],
+                "exercises": [],
+                "severity": "moderate",
+                "clinic": null
+            },
+            "timestamp": "2025-06-30T13:09:50.181154"
+        },
+        {
+            "input": "I am having low ear pain.",
+            "output": {
+                "advice": "We recommend consulting a ENT Specialist.",
+                "type": "clinic",
+                "remedies": [
+                    "Apply warm compress",
+                    "Use over-the-counter pain relievers",
+                    "Try nasal decongestants"
+                ],
+                "exercises": [],
+                "severity": "moderate",
+                "clinic": null
+            },
+            "timestamp": "2025-06-30T13:09:56.530323"
+        },
+        {
+            "input": "I am having low ear pain.",
+            "output": {
+                "advice": "We recommend consulting a ENT Specialist.",
+                "type": "clinic",
+                "remedies": [
+                    "Apply warm compress",
+                    "Use over-the-counter pain relievers",
+                    "Try nasal decongestants"
+                ],
+                "exercises": [],
+                "severity": "moderate",
+                "clinic": null
+            },
+            "timestamp": "2025-06-30T13:09:57.456932"
+        },
+        {
+            "input": "I am having low ear pain.",
+            "output": {
+                "advice": "We recommend consulting a ENT Specialist.",
+                "type": "clinic",
+                "remedies": [
+                    "Apply warm compress",
+                    "Use over-the-counter pain relievers",
+                    "Try nasal decongestants"
+                ],
+                "exercises": [],
+                "severity": "moderate",
+                "clinic": null
+            },
+            "timestamp": "2025-06-30T13:09:57.595460"
+        },
+        {
+            "input": "I am having low ear pain.",
+            "output": {
+                "advice": "We recommend consulting a ENT Specialist.",
+                "type": "clinic",
+                "remedies": [
+                    "Apply warm compress",
+                    "Use over-the-counter pain relievers",
+                    "Try nasal decongestants"
+                ],
+                "exercises": [],
+                "severity": "moderate",
+                "clinic": null
+            },
+            "timestamp": "2025-06-30T13:09:57.823512"
+        },
+        {
+            "input": "Having low headache",
+            "output": {
+                "advice": "We recommend consulting a Neurologist.",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "low"
+            },
+            "timestamp": "2025-06-30T13:24:42.003051"
+        },
+        {
+            "input": "i have severe chest pain\n",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular"
+                ],
+                "severity": "high",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T13:32:37.323650"
+        },
+        {
+            "input": "i have mild \nchest pain\n",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular"
+                ],
+                "severity": "high",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T13:32:44.350817"
+        },
+        {
+            "input": "i have headache",
+            "output": {
+                "advice": "We recommend consulting a Neurologist.",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "low"
+            },
+            "timestamp": "2025-06-30T13:34:32.449824"
+        },
+        {
+            "input": "i have severe headache\n",
+            "output": {
+                "advice": "We recommend consulting a Neurologist.",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild",
+                "clinic": {
+                    "name": "Neuro Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765"
+                }
+            },
+            "timestamp": "2025-06-30T13:40:00.537364"
+        },
+        {
+            "input": "i have severe headache\n",
+            "output": {
+                "advice": "We recommend consulting a Neurologist.",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T13:42:30.921913"
+        },
+        {
+            "input": "i have moderate headache",
+            "output": {
+                "advice": "We recommend consulting a Neurologist.",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T13:42:41.457884"
+        },
+        {
+            "input": "i have high fever",
+            "output": {
+                "advice": "We recommend consulting a General Physician.",
+                "type": "home_care",
+                "remedies": [
+                    "Drink plenty of fluids",
+                    "Rest in a cool room",
+                    "Take paracetamol if needed"
+                ],
+                "exercises": [
+                    "Deep breathing exercises 3x/day"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T13:42:58.095795"
+        },
+        {
+            "input": "i have chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T13:43:07.753081"
+        },
+        {
+            "input": "i have diarrhea",
+            "output": {
+                "advice": "We recommend consulting a Gastroenterologist.",
+                "type": "home_care",
+                "remedies": [
+                    "Stay hydrated with ORS",
+                    "Eat BRAT diet (bananas, rice, applesauce, toast)",
+                    "Avoid dairy"
+                ],
+                "exercises": [],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T13:46:08.837846"
+        },
+        {
+            "input": "i have severe diarrhea",
+            "output": {
+                "advice": "We recommend consulting a Gastroenterologist.",
+                "type": "home_care",
+                "remedies": [
+                    "Stay hydrated with ORS",
+                    "Eat BRAT diet (bananas, rice, applesauce, toast)",
+                    "Avoid dairy"
+                ],
+                "exercises": [],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T13:46:19.098551"
+        },
+        {
+            "input": "i have severe abdominal pain",
+            "output": {
+                "advice": "We recommend consulting a Gastroenterologist.",
+                "type": "clinic",
+                "remedies": [
+                    "Apply heat pad",
+                    "Drink peppermint tea",
+                    "Eat small meals"
+                ],
+                "exercises": [
+                    "Gentle abdominal massage"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "Digestive Health Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Gastroenterologist",
+                    "phone": "+91-9345678123"
+                }
+            },
+            "timestamp": "2025-06-30T13:46:59.532542"
+        },
+        {
+            "input": "i have headache",
+            "output": {
+                "advice": "We recommend consulting a Neurologist.",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T13:47:08.195043"
+        },
+        {
+            "input": "Having severe headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "clinic",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "NeuroVision Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765",
+                    "hours": "9:00 AM - 9:00 PM"
+                }
+            },
+            "timestamp": "2025-06-30T14:29:07.133528"
+        },
+        {
+            "input": "I am having my mild headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T14:29:24.307911"
+        },
+        {
+            "input": "I am having my mild headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T14:30:04.541956"
+        },
+        {
+            "input": "I am having severe headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "clinic",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "NeuroVision Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765",
+                    "hours": "9:00 AM - 9:00 PM"
+                }
+            },
+            "timestamp": "2025-06-30T14:30:38.571246"
+        },
+        {
+            "input": "I'm having mild headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T14:31:26.835038"
+        },
+        {
+            "input": "I'm having mild headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T14:32:43.784557"
+        },
+        {
+            "input": "I am having severe headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "clinic",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "NeuroVision Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765",
+                    "hours": "9:00 AM - 9:00 PM"
+                }
+            },
+            "timestamp": "2025-06-30T14:33:02.273153"
+        },
+        {
+            "input": "I am having mild chest pain.",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "HeartCare Specialists",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345",
+                    "hours": "24/7 Emergency"
+                }
+            },
+            "timestamp": "2025-06-30T14:40:32.789098"
+        },
+        {
+            "input": "I am having chest pain.",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist",
+                "type": "clinic",
+                "remedies": [
+                    "Sit upright and stay calm",
+                    "Avoid physical exertion"
+                ],
+                "exercises": [
+                    "Gentle shoulder rolls if muscular"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "HeartCare Specialists",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345",
+                    "hours": "24/7 Emergency"
+                }
+            },
+            "timestamp": "2025-06-30T14:40:38.650019"
+        },
+        {
+            "input": "I am having nausea and cough",
+            "output": {
+                "advice": "We recommend consulting a Pulmonologist",
+                "type": "home_care",
+                "remedies": [
+                    "Drink warm liquids",
+                    "Use honey-lemon mixture",
+                    "Humidify air"
+                ],
+                "exercises": [
+                    "Deep breathing exercises"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T14:40:48.226867"
+        },
+        {
+            "input": "I am having nausea ",
+            "output": {
+                "advice": "We recommend consulting a Gastroenterologist",
+                "type": "home_care",
+                "remedies": [
+                    "Sip ginger tea",
+                    "Eat small bland meals",
+                    "Acupressure (P6 point)"
+                ],
+                "exercises": [],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T14:41:03.877517"
+        },
+        {
+            "input": "Have fever?",
+            "output": {
+                "advice": "We recommend consulting a General Physician.",
+                "type": "home_care",
+                "remedies": [
+                    "Drink plenty of fluids",
+                    "Rest in a cool room",
+                    "Take paracetamol if needed"
+                ],
+                "exercises": [
+                    "Deep breathing exercises 3x/day"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T15:33:24.173987"
+        },
+        {
+            "input": "I have mild fever.",
+            "output": {
+                "advice": "We recommend consulting a General Physician.",
+                "type": "home_care",
+                "remedies": [
+                    "Drink plenty of fluids",
+                    "Rest in a cool room",
+                    "Take paracetamol if needed"
+                ],
+                "exercises": [
+                    "Deep breathing exercises 3x/day"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T15:33:32.772914"
+        },
+        {
+            "input": "I have headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist.",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T15:34:26.069528"
+        },
+        {
+            "input": "I have severe headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist.",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T15:35:36.371523"
+        },
+        {
+            "input": "I have severe headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "clinic",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "NeuroVision Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765",
+                    "hours": "9:00 AM - 9:00 PM"
+                }
+            },
+            "timestamp": "2025-06-30T15:42:45.046979"
+        },
+        {
+            "input": "I have mild headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T15:42:53.894739"
+        },
+        {
+            "input": "i ahve headache",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T15:49:23.318685"
+        },
+        {
+            "input": "i have headache\n",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T15:52:54.667228"
+        },
+        {
+            "input": "i have fever",
+            "output": {
+                "advice": "We recommend consulting a General Physician",
+                "type": "home_care",
+                "remedies": [
+                    "Drink plenty of fluids",
+                    "Rest in a cool room",
+                    "Take paracetamol if needed"
+                ],
+                "exercises": [
+                    "Deep breathing exercises 3x/day"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T15:53:02.363414"
+        },
+        {
+            "input": "i have mild fever",
+            "output": {
+                "advice": "We recommend consulting a General Physician",
+                "type": "home_care",
+                "remedies": [
+                    "Drink plenty of fluids",
+                    "Rest in a cool room",
+                    "Take paracetamol if needed"
+                ],
+                "exercises": [
+                    "Deep breathing exercises 3x/day"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T15:59:37.060222"
+        },
+        {
+            "input": "i have a fever",
+            "output": {
+                "advice": "We recommend consulting a General Physician",
+                "type": "home_care",
+                "remedies": [
+                    "Drink plenty of fluids",
+                    "Rest in a cool room",
+                    "Take paracetamol if needed"
+                ],
+                "exercises": [
+                    "Deep breathing exercises 3x/day"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T16:04:30.957629"
+        },
+        {
+            "input": "i have a fever",
+            "output": {
+                "advice": "We recommend consulting a General Physician",
+                "type": "home_care",
+                "remedies": [
+                    "Drink plenty of fluids",
+                    "Rest in a cool room",
+                    "Take paracetamol if needed"
+                ],
+                "exercises": [
+                    "Deep breathing exercises 3x/day"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T16:04:38.453915"
+        },
+        {
+            "input": "i have a hign fever",
+            "output": {
+                "advice": "We recommend consulting a General Physician",
+                "type": "home_care",
+                "remedies": [
+                    "Drink plenty of fluids",
+                    "Rest in a cool room",
+                    "Take paracetamol if needed"
+                ],
+                "exercises": [
+                    "Deep breathing exercises 3x/day"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T16:04:46.236616"
+        },
+        {
+            "input": "i have a severe fever",
+            "output": {
+                "advice": "We recommend consulting a General Physician",
+                "type": "clinic",
+                "remedies": [
+                    "Drink plenty of fluids",
+                    "Rest in a cool room",
+                    "Take paracetamol if needed"
+                ],
+                "exercises": [
+                    "Deep breathing exercises 3x/day"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "City General Clinic",
+                    "location": "Mylapore, Chennai",
+                    "specialist": "General Physician",
+                    "phone": "+91-9000012345",
+                    "hours": "8:00 AM - 8:00 PM"
+                }
+            },
+            "timestamp": "2025-06-30T16:04:53.751752"
+        },
+        {
+            "input": "i hav fever",
+            "output": {
+                "advice": "We recommend consulting a General Physician",
+                "type": "home_care",
+                "remedies": [
+                    "Drink plenty of fluids",
+                    "Rest in a cool room",
+                    "Take paracetamol if needed"
+                ],
+                "exercises": [
+                    "Deep breathing exercises 3x/day"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T16:05:50.208928"
+        },
+        {
+            "input": "i hav severe headache",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "clinic",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "NeuroVision Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765",
+                    "hours": "9:00 AM - 9:00 PM"
+                }
+            },
+            "timestamp": "2025-06-30T16:06:07.690202"
+        },
+        {
+            "input": "i have fever",
+            "output": {
+                "advice": "We recommend consulting a General Physician",
+                "type": "home_care",
+                "remedies": [
+                    "Drink plenty of fluids",
+                    "Rest in a cool room",
+                    "Take paracetamol if needed"
+                ],
+                "exercises": [
+                    "Deep breathing exercises 3x/day"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T16:11:06.561605"
+        },
+        {
+            "input": "i have severe fever",
+            "output": {
+                "advice": "We recommend consulting a General Physician",
+                "type": "clinic",
+                "remedies": [
+                    "Drink plenty of fluids",
+                    "Rest in a cool room",
+                    "Take paracetamol if needed"
+                ],
+                "exercises": [
+                    "Deep breathing exercises 3x/day"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "City General Clinic",
+                    "location": "Mylapore, Chennai",
+                    "specialist": "General Physician",
+                    "phone": "+91-9000012345",
+                    "hours": "8:00 AM - 8:00 PM"
+                }
+            },
+            "timestamp": "2025-06-30T16:11:12.823725"
+        }
+    ],
+    "tarunikaaaa": [
+        {
+            "input": "i have cough,fever",
+            "output": {
+                "advice": "We recommend consulting a General Physician.",
+                "clinic": {
+                    "name": "City Clinic",
+                    "location": "Mylapore, Chennai",
+                    "specialist": "General Physician",
+                    "phone": "+91-9000012345"
+                }
+            },
+            "timestamp": "2025-06-29T14:46:22.799264"
+        },
+        {
+            "input": "i have chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-29T14:46:37.447391"
+        },
+        {
+            "input": "I am having chest pain.",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-29T14:46:56.189318"
+        }
+    ],
+    "SRIMATHI C": [
+        {
+            "input": "I am having fever and cough.",
+            "output": {
+                "advice": "We recommend consulting a Pulmonologist.",
+                "clinic": {
+                    "name": "Lung Health",
+                    "location": "Adyar, Chennai",
+                    "specialist": "Pulmonologist",
+                    "phone": "+91-9945078945"
+                }
+            },
+            "timestamp": "2025-06-29T18:56:59.455782"
+        },
+        {
+            "input": "I'm having chest pain.",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-29T18:57:23.792221"
+        }
+    ],
+    "cheena": [
+        {
+            "input": "I am having fever and cough.",
+            "output": {
+                "advice": "We recommend consulting a General Physician.",
+                "clinic": {
+                    "name": "City Clinic",
+                    "location": "Mylapore, Chennai",
+                    "specialist": "General Physician",
+                    "phone": "+91-9000012345"
+                }
+            },
+            "timestamp": "2025-06-30T10:35:07.522637"
+        },
+        {
+            "input": "i am having chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T10:35:27.721750"
+        },
+        {
+            "input": "i am having chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T10:35:47.746349"
+        },
+        {
+            "input": "I'm having nausea.",
+            "output": {
+                "advice": "We recommend consulting a Gastroenterologist.",
+                "clinic": {
+                    "name": "Digestive Health Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Gastroenterologist",
+                    "phone": "+91-9345678123"
+                }
+            },
+            "timestamp": "2025-06-30T10:36:14.218984"
+        }
+    ],
+    "admin": [
+        {
+            "input": "i have chest pain",
+            "output": {
+                "advice": "We recommend consulting a Cardiologist.",
+                "clinic": {
+                    "name": "HeartCare Clinic",
+                    "location": "Anna Nagar, Chennai",
+                    "specialist": "Cardiologist",
+                    "phone": "+91-9845012345"
+                }
+            },
+            "timestamp": "2025-06-30T10:39:39.267819"
+        },
+        {
+            "input": "I am having severe headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "clinic",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "NeuroVision Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765",
+                    "hours": "9:00 AM - 9:00 PM"
+                }
+            },
+            "timestamp": "2025-06-30T15:47:26.147443"
+        },
+        {
+            "input": "I'm having mild headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T15:47:42.918021"
+        },
+        {
+            "input": "I am having mild headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "home_care",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "mild"
+            },
+            "timestamp": "2025-06-30T16:25:16.048361"
+        },
+        {
+            "input": "I am having severe headache.",
+            "output": {
+                "advice": "We recommend consulting a Neurologist",
+                "type": "clinic",
+                "remedies": [
+                    "Apply cold compress to forehead",
+                    "Massage temples gently",
+                    "Hydrate well"
+                ],
+                "exercises": [
+                    "Neck stretches: Slowly tilt head side-to-side"
+                ],
+                "severity": "severe",
+                "clinic": {
+                    "name": "NeuroVision Center",
+                    "location": "T Nagar, Chennai",
+                    "specialist": "Neurologist",
+                    "phone": "+91-9845098765",
+                    "hours": "9:00 AM - 9:00 PM"
+                }
+            },
+            "timestamp": "2025-06-30T16:25:27.842971"
+        }
+    ]
+}
