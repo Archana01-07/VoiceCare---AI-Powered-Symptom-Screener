@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | VoiceCare</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <div class="logo">
+        <i class="fas fa-heartbeat" style="font-size: 3rem; color: var(--primary);"></i>
+        <h2>VoiceCare</h2>
+      </div>
+      
+      {% if error %}
+      <div class="alert error">
+        <i class="fas fa-exclamation-circle"></i> {{ error }}
+      </div>
+      {% endif %}
+      
+      <form method="POST" action="/login">
+        <div class="input-group">
+          <i class="fas fa-envelope"></i>
+          <input type="email" name="email" placeholder="Email address" required>
+        </div>
+        
+        <div class="input-group">
+          <i class="fas fa-lock"></i>
+          <input type="password" name="password" placeholder="Password" required>
+        </div>
+        
+        <button type="submit" class="btn">
+          <i class="fas fa-sign-in-alt"></i> Login
+        </button>
+        <!-- Add this before the closing </form> tag -->
+        <p class="auth-link">
+        Don't have an account? <a href="{{ url_for('register') }}">Register</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

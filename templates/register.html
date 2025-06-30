@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | VoiceCare</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <div class="logo">
+        <i class="fas fa-heartbeat" style="font-size: 3rem; color: var(--primary);"></i>
+        <h2>Create Account</h2>
+      </div>
+      
+      {% if error %}
+      <div class="alert error">
+        <i class="fas fa-exclamation-circle"></i> {{ error }}
+      </div>
+      {% endif %}
+      
+      <form method="POST" action="/register">
+        <div class="input-group">
+          <i class="fas fa-user"></i>
+          <input type="text" name="name" placeholder="Full Name" required>
+        </div>
+        
+        <div class="input-group">
+          <i class="fas fa-envelope"></i>
+          <input type="email" name="email" placeholder="Email address" required>
+        </div>
+        
+        <div class="input-group">
+          <i class="fas fa-lock"></i>
+          <input type="password" name="password" placeholder="Password" required minlength="6">
+        </div>
+        
+        <button type="submit" class="btn" style="width: 100%; margin-top: 1rem;">
+          <i class="fas fa-user-plus"></i> Register
+        </button>
+      </form>
+
+      <div class="auth-divider">
+        <span>OR</span>
+      </div>
+
+      <a href="{{ url_for('google_login') }}" class="btn btn-google">
+        <i class="fab fa-google"></i> Continue with Google
+      </a>
+      
+      <p class="auth-link">
+        Already have an account? <a href="{{ url_for('login') }}">Login</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

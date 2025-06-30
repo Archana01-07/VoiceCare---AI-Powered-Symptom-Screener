@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>History | VoiceCare</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1>VoiceCare</h1>
+    <div class="nav-links">
+      <a href="{{ url_for('index') }}"><i class="fas fa-home"></i> Home</a>
+      <a href="{{ url_for('history') }}"><i class="fas fa-history"></i> History</a>
+      <a href="{{ url_for('logout') }}"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </div>
+  </nav>
 
+  <div class="container">
+    <h2>Your Consultation History</h2>
+    
+    {% if not data %}
+    <div class="empty-state">
+      <i class="fas fa-clipboard-list" style="font-size: 3rem; color: var(--accent);"></i>
+      <h3>No history yet</h3>
+      <p>Your symptom checks will appear here</p>
+      <a href="{{ url_for('index') }}" class="btn">
+        <i class="fas fa-plus"></i> Check Symptoms
+      </a>
+    </div>
+    {% else %}
+    <div class="history-container">
+      {% for entry in data %}
+      <div class="history-card">
+        <div class="card-header">
+          <i class="fas fa-calendar-alt"></i>
+          <span>{{ entry.formatted_time }}</span>
+        </div>
+        <div class="card-body">
+          <h4><i class="fas fa-comment-medical"></i> Symptoms</h4>
+          <p>{{ entry.input }}</p>
+          
+          <h4><i class="fas fa-stethoscope"></i> Advice</h4>
+          <p>{{ entry.output.advice }}</p>
+          
+          {% if entry.output.type == "clinic" and entry.output.clinic %}
+          <div class="clinic-info">
+            <h4><i class="fas fa-clinic-medical"></i> Recommended Clinic</h4>
+            <p><strong>{{ entry.output.clinic.name }}</strong></p>
+            <p>{{ entry.output.clinic.location }}</p>
+            <p><i class="fas fa-phone"></i> {{ entry.output.clinic.phone }}</p>
+            {% if entry.output.clinic.hours %}
+            <p><i class="fas fa-clock"></i> {{ entry.output.clinic.hours }}</p>
+            {% endif %}
+          </div>
+          {% endif %}
+          
+          {% if entry.output.remedies %}
+          <div class="remedy-section">
+            <h4><i class="fas fa-pills"></i> Remedies</h4>
+            <ul>
+              {% for remedy in entry.output.remedies %}
+              <li>{{ remedy }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+          
+          {% if entry.output.exercises %}
+          <div class="exercise-section">
+            <h4><i class="fas fa-running"></i> Exercises</h4>
+            <ul>
+              {% for exercise in entry.output.exercises %}
+              <li>{{ exercise }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+  <script>
+    // Add fade-in animation for history cards
+    document.addEventListener('DOMContentLoaded', () => {
+      const cards = document.querySelectorAll('.history-card');
+      cards.forEach((card, index) => {
+        setTimeout(() => {
+          card.style.opacity = '1';
+          card.style.transform = 'translateY(0)';
+        }, index * 100);
+      });
+    });
+  </script>
+</body>
+</html>

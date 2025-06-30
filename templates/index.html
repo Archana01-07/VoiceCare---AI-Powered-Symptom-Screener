@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoiceCare Symptom Screener</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1>VoiceCare</h1>
+    <div class="nav-links">
+      <a href="{{ url_for('index') }}"><i class="fas fa-home"></i> Home</a>
+      <a href="{{ url_for('history') }}"><i class="fas fa-history"></i> History</a>
+      <a href="{{ url_for('logout') }}"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h2>Welcome back, <span class="username">{{ user }}</span>!</h2>
+    <p class="subtitle">Describe your symptoms to get medical advice</p>
+    
+    <div class="symptom-form">
+      <form id="symptomForm">
+    <label for="symptoms">How are you feeling today?</label>
+    <textarea id="symptoms" placeholder="Example: I've had a fever and headache for two days..." required></textarea>
+    
+    <div class="button-group">
+        <button type="submit" class="btn">
+            <i class="fas fa-search"></i> Check Symptoms
+        </button>
+        <button type="button" id="micBtn" class="btn btn-secondary">
+            <i class="fas fa-microphone"></i> Speak Symptoms
+        </button>
+    </div>
+</form>
+      
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
